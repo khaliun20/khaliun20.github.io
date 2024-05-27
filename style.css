@@ -298,7 +298,6 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 70%;
   justify-content: center;
   padding: 40px;
 
@@ -316,7 +315,7 @@ section {
     border-radius: 10px; /* Add rounded corners */
     border: 1px solid #ccc; /* Add border */
     font-size: 16px; /* Set font size */
-    padding-left: 150px;
+
 
 
   }
@@ -326,6 +325,7 @@ section {
 
 #experience {
   position: relative;
+  
 }
 
 .experience-sub-title {
@@ -438,3 +438,164 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* RESUNE */
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  padding-left: 0;
+  margin: 0 auto;
+  list-style-position: inside;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+ 
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+#bullet-list {
+  display: flex;
+  justify-content: center; /* Center the list within the parent container */
+}
+
+#bullet-list ul {
+  padding-left: 20px;
+  list-style-position: outside;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#bullet-list ul li {
+  padding-bottom: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.old-resume{
+
+  display: none;
+}
+
+.old-resume.expanded{
+  display: block;
+}
+.old-resume .old-resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+
+.old-resume .old-resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.old-resume .old-resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.old-resume .old-resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.old-resume .old-resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.expand-button {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.expand-button:hover {
+  text-decoration: underline; /* Underline text on hover */
+}
+
+
+
+
