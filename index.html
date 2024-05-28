@@ -67,7 +67,7 @@
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://www.github.com/khaliun20'"
+            onclick="location.href='https://github.com/khaliun20'"
           />
         </div>
       </div>
@@ -75,7 +75,8 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
+      <div class="about-containers">
+      <div class="details-container">
       
           <div class="text-container">
             <p>
@@ -93,6 +94,7 @@
             
           </div>
         </div>
+      </div>
       </div>
       <img
         src="./assets/arrow.png"
@@ -221,194 +223,167 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
+
+    <section id="projects" class="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">School Management System</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.jpg"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Battleship Game</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Online Order Delivery System </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
+      <div class ="about-containers">
 
+      <div class="projects__container">
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">Academy Management System</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/academy_management_system'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/java.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/javafx.jpeg" alt="Tool 1" class="project__badge" />
+              <img src="./assets/mysql.png" alt="Tool 2" class="project__badge" />
+              <img src="./assets/gradle.png" alt="Tool 2" class="project__badge" />
+              <img src="./assets/junit.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/docker.jpeg" alt="Tool 2" class="project__badge" />
             </div>
           </div>
-          
         </div>
 
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-4.png"
-                alt="Project 4"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Book Recommender</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-2.jpg" alt="Project 1" class="project__image" />
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-5.png"
-                alt="Project 5"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HTTP Caching Proxy</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-6.png"
-                alt="Project 6"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Memory Allocator </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
+          <h2 class="project__title">Battleship Game</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/battleship_game'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/java.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/gradle.png" alt="Tool 2" class="project__badge" />
+              <img src="./assets/junit.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/tcp.png" alt="Tool 2" class="project__badge" />
 
             </div>
           </div>
-          
         </div>
 
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-7.png"
-                alt="Project 7"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Rootkit</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 1" class="project__image" />
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-8.png"
-                alt="Project 8"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Uber App</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-9.png"
-                alt="Project 9"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Stock Market App</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
+          <h2 class="project__title">Online Order Delivery System</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/mini-ups_server'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/python.jpeg" alt="Tool 1" class="project__badge" />
+              <img src="./assets/postgresql.png" alt="Tool 2" class="project__badge"/>
+              <img src="./assets/docker.jpeg" alt="Tool 2" class="project__badge" />
+              <img src="./assets/tcp.png" alt="Tool 2" class="project__badge" />
 
             </div>
           </div>
-          
         </div>
+
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">Book Recommender</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/book_recommender_flask_app'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/python.jpeg" alt="Tool 1" class="project__badge" />
+              <img src="./assets/flask.png" alt="Tool 2" class="project__badge" />
+              <img src="./assets/azure.jpeg" alt="Tool 2" class="project__badge" />
+              <img src="./assets/docker.jpeg" alt="Tool 2" class="project__badge" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-5.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">HTTP Caching Proxy</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/http_caching_proxy'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/cpp.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/tcp.png" alt="Tool 2" class="project__badge" />
+              <img src="./assets/docker.jpeg" alt="Tool 2" class="project__badge" />
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-6.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">Heap Memory Allocator</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/malloc_free_low_level_implementation'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/c.png" alt="Tool 1" class="project__badge" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-7.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">Rootkit</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/simulate_rootkit_attack_kernel_programming'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/c.png" alt="Tool 1" class="project__badge" />
+              <img src="./assets/linux.jpeg" alt="Tool 2" class="project__badge" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="article-container">
+            <img src="./assets/project-9.png" alt="Project 1" class="project__image" />
+          </div>
+          <h2 class="project__title">Stock Market App</h2>
+          <div class="project__footer">
+            <button class="btn btn-color-1" onclick="location.href='https://github.com/khaliun20/stock_market_app'">
+              GitHub
+            </button>
+            <div class="project__badges">
+              <img src="./assets/python.jpeg" alt="Tool 1" class="project__badge" />
+              <img src="./assets/postgresql.png" alt="Tool 2" class="project__badge"/>
+              <img src="./assets/sqla.png" alt="Tool 2" class="project__badge"/>
+              <img src="./assets/tcp.png" alt="Tool 2" class="project__badge" />
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Repeat for other projects -->
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+    </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
+
+
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -427,7 +402,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/khal?_l=en_US">LinkedIn</a></p>
         </div>
       </div>
     </section>
